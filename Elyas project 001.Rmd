@@ -1,0 +1,20 @@
+---
+title: "Untitled"
+author: "Elyas hassan"
+date: "`r Sys.Date()`"
+output: word_document
+---
+
+```{r}
+sales<- c(500,325,1000,620,223,994,900,862,286)
+mat_sales <-matrix(sales,nrow =3, ncol =3)
+rownames(mat_sales) <- c("shop A","shop B","shop c")
+colnames(mat_sales) <- c("Monday","Tuesday","Wednesday")
+mat_sales
+```
+```{r}
+mat_a <-c(9,6,2,0)
+mat_b <-c(10,6,5,8)
+mat_a * mat_b
+mat_a + mat_b
+```
